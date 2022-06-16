@@ -25,7 +25,7 @@ export default function userAddress() {
   }
 
   async function adicionarEndereço() {
-    const address = await axios.get(`http://viacep.com.br/ws/${user.CEP}/json/`);
+    const address = await axios.get(`https://viacep.com.br/ws/${user.CEP}/json/`);
 
     if (!address.data.cep) setError('CEP inválido');
 
