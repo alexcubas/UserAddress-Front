@@ -20,10 +20,10 @@ export default function ListaTarefas() {
 
   return (
     <div className="container-fluid">
-      <Navbar />
       <div id="app" className="container">
+        <Navbar />
         { allUsers && allUsers.map((user) => (
-          <div key={user.id}>
+          <div key={user.id} className="form-group">
             <div className="card">
               <p>
           &nbsp; nome: &nbsp;

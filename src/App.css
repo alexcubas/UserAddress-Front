@@ -13,28 +13,7 @@
   }
 }
 
-.spaceAll {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.espacamento {
-  color: rgb(67, 129, 168);
-  /* Poderia usar:;
-  color: #ff0000;*/
-  /* Poderia usar:;
-  color: rgb(255, 0, 0);*/
-}
-
-.moldura {
-  width:250px;
-  height:300px;
-  border:solid 1px;
-  border-radius:20px;
-  background-color: rgb(150, 215, 255);
-}
-
-.spaceCriar {
+.spaceNav {
   padding-left: 50px;
   justify-content: center;
   align-items: center;
@@ -46,27 +25,9 @@
   padding-left: 50px;
   justify-content: center;
   align-items: center;
-}
-
-.newProd {
-  width: 100vw;
-  height: 70px;
-  background: #007bff ;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
 .App-link {

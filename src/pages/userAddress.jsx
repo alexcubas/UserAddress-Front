@@ -47,8 +47,8 @@ export default function userAddress() {
 
   return (
     <div className="container-fluid">
-      <Navbar />
       <div id="app" className="container">
+        <Navbar />
         <div className="card">
           <div className="card-header">Adicione uma novo endereço</div>
           <div className="card-body">

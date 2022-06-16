@@ -14,10 +14,10 @@ export default function Navbar() {
 
   return (
     <nav>
-      <ul style={{ display: 'flex', listStyle: 'none' }}>
+      <ul style={{ display: 'flex', listStyle: 'none' }} className="spaceNav">
         <li>
           <button
-            className="btn btn-sm btn-primary"
+            className="btn btn-sm btn-primary space"
             type="button"
             name="newUser"
             onClick={newUser}
@@ -27,7 +27,7 @@ export default function Navbar() {
         </li>
         <li>
           <button
-            className="btn btn-sm btn-primary"
+            className="btn btn-sm btn-primary space"
             type="button"
             name="allUsers"
             onClick={allUsers}
