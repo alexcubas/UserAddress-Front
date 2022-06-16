@@ -9,7 +9,7 @@ export default function ListaTarefas() {
   const { allUsers, setAllUsers } = useContext(ApplicationContext);
 
   const fetchProducts = useCallback(async () => {
-    const result = await axios.get('http://localhost:3001/user');
+    const result = await axios.get('http://user-address-back-alexcubas.herokuapp.com/user');
 
     setAllUsers(result.data);
   }, [setAllUsers]);

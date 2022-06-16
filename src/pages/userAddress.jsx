@@ -32,7 +32,7 @@ export default function userAddress() {
     setAddress(address);
 
     try {
-      const createUser = await axios.post('http://localhost:3001/user', user);
+      const createUser = await axios.post('http://user-address-back-alexcubas.herokuapp.com/user', user);
       setStatusCreate(null);
       setError(null);
       setDateUser(createUser.data);
