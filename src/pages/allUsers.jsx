@@ -23,7 +23,10 @@ export default function ListaTarefas() {
       <div id="app" className="container">
         <Navbar />
         { allUsers && allUsers.map((user) => (
-          <div key={user.id} className="form-group">
+          <div
+            key={user.id}
+            className="form-group"
+          >
             <div className="card">
               <p>
           &nbsp; nome: &nbsp;
